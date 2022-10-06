@@ -1,5 +1,5 @@
 #!/bin/bash
-set -euxo pipefail
+set -euo pipefail
 
 # proxy setting for avalon
 export HTTP_PROXY=${proxy_settings.proxy}
